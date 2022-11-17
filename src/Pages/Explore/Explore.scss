@@ -1,0 +1,90 @@
+.explore {
+    padding: 20px 80px;
+    &__category {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__card {
+        width: 210px;
+        background-color: white;
+        padding: 30px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+    &__card:hover {
+        background-color: #E0E0E0;
+        cursor: pointer;
+    }
+
+    &__card + &__card {
+        margin-left: 10px;
+    }
+
+    &__card:nth-child(6){
+        margin-left: 0;
+    }
+
+    &__card-img {
+        margin-bottom: 10px;
+    }
+
+    &__card-heading {
+        font-size: 1rem;
+        color: black;
+        font-weight: 500;
+    }
+
+    &__video {
+        display: flex;
+        width: 100%;
+
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__img {
+        width: 246px;
+        height: 136;
+    }
+
+    .details &__heading h3 {
+        font-size: 40px;
+    }
+
+    .dark {
+        background-color: transparent;
+
+        div {
+            background-color: black;
+            color: white;
+        }
+        div h3 {
+            background-color: black;
+            color: white;
+        }
+    }
+
+    &__links {
+        .dark {
+            background-color: transparent;
+            color: white;
+        }
+        .dark div {
+            background-color: transparent;
+            color: white;
+        }
+        .dark div div h3 {
+            background-color: transparent;
+            color: white;
+        }
+    }
+}
+
+.d-block .content__dark .dark .videos a .video .dark .title h3 {
+    color: white;
+}

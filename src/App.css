@@ -1,0 +1,50 @@
+a {
+    text-decoration: none;
+}
+
+.active {
+    background-color: blue;
+}
+
+.content {
+    height: calc(100vh - 61px);
+    bottom: 0;
+}
+
+.upload__content-dark {
+    background-color: #282828;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.dark .navbar hr {
+    background-color: rgb(65, 64, 64);
+}
+
+.content__dark {
+    background-color: #181818;
+}
+
+.content__dark .hhh {
+    border-top: 1px solid rgb(65, 64, 64);
+    border-bottom: 1px solid rgb(65, 64, 64);
+}
+
+.d-none {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+iframe {
+    border: none;
+}
+
+i {
+    background-color: transparent;
+}

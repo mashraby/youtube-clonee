@@ -1,0 +1,132 @@
+.history__body {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.you-tube-history {
+    padding: 50px 0px 50px 100px;
+    width: 60%;
+}
+
+.history__desc {
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.history {
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(171, 145, 145, 0.2) 0px 7px 29px 0px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+img {
+    display: flex;
+}
+
+.history__icon {
+    font-size: 150px;
+    margin-right: 50px;
+}
+
+/* .history__account-img {
+    border: 1px solid red;
+} */
+
+.history__body .dark {
+    background-color: black;
+    color: white;
+}
+.history__body .dark input {
+    background-color: black;
+    color: white;
+    border-bottom: 2px solid rgb(210, 205, 205);
+    color: white;
+}
+.history__body .dark input::placeholder {
+    background-color: black;
+    color: white;
+    border-bottom: 2px solid rgb(210, 205, 205);
+    color: white;
+}
+
+.history__body .dark div,  .history__body .dark a {
+    background-color: black;
+    color: white;
+}
+
+.history__body .dark:nth-child(1){
+    background-color: transparent;
+    color: white;
+}
+.history__body .history__link .history .history__account-img{
+    background-color: transparent;
+    color: white;
+}
+.history__body .history__link .history .details div h3{
+    background-color: transparent;
+    color: white;
+}
+.history__body .history__link .history .details div span{
+    background-color: transparent;
+    color: white;
+}
+
+.history__setting {
+    background-color: #f1f1f1;
+    padding: 50px;
+    height: 92vh;
+    position: fixed;
+    right: 0;
+    width: 400px;
+}
+
+.history__input {
+    width: 250px;
+    padding: 7px;
+    border: none;
+    border-bottom: 2px solid rgb(210, 205, 205);
+    background-color: transparent;
+    outline: none;
+    color: black;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.history__input:focus {
+    padding: 7px;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    outline: none;
+}
+.history__input::placeholder {
+    width: 200px;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    color: black;
+    font-size: 16px;
+}
+
+.histor__delete {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.history__links {
+    display: block;
+    margin-left: 38px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.history__delete__all {
+    cursor: pointer;
+}

@@ -1,0 +1,287 @@
+.info {
+    padding: 30px 10px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.info__content {
+    width: 67%;
+}
+
+.info__video {
+    width: 100%;
+    height: 550px;
+}
+
+.info__video-title {
+    margin: 0;
+    padding: 15px 0;
+    font-weight: 400;
+}
+
+.info__video-about {
+    font-size: 16px;
+}
+
+.hr {
+    margin: 20px 0px;
+}
+
+.info__desc-details {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px 0px;
+}
+
+.info__desc-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.info__desc-heading {
+    margin-right: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.chanel-video {
+    background-color: white;
+    margin: 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.chanel__category-video {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+}
+
+.thumbnail {
+    display: inline;
+}
+
+.chanel__imgs {
+    width: 168px;
+    height: 94px;
+    object-fit: cover;
+}
+
+.chanel__category-img {
+    margin-right: 10px;
+}
+
+.chanel__videos {
+    margin-bottom: 10px;
+}
+
+.chanel__img {
+    margin-right: 20px;
+}
+
+.chanel__video {
+    display: flex;
+    width: 100%;
+}
+
+.content__dark .info .info__content  .info__video-title {
+    color: white;
+}
+.content__dark .info .info__content  div span {
+    color: #aaa;
+}
+.content__dark .info .info__content  .info__desc-details div .info__desc-title h3 {
+    color: #aaa;
+    color: white;
+}
+.content__dark .info .info__content  .info__desc-details div div {
+    color: #aaa;
+    color: white;
+}
+
+.video__subscribe{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+.share__modal {
+    width: 518px;
+    height: 329px;
+    background-color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    padding: 20px;
+    z-index: 500;
+}
+
+.share__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.share__header p{
+   font-size: 18px;
+   font-weight: 500;
+   color: rgb(84, 84, 84);
+}
+
+.share__caruse {
+    display: flex;
+    overflow-x: scroll;
+    /* position: relative; */
+    height: 100px;
+    padding: 10px 40px;
+    /* width: 95%; */
+    margin: auto;
+}
+
+.share__caruse a {
+    cursor: pointer;
+}
+
+.share__caruse::-webkit-scrollbar {
+  width: 0px;
+  height: 0;
+}
+
+/* scrolning uzini stylesi */
+.share__caruse::-webkit-scrollbar-track {
+  -webkit-border-radius: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+/* scroll ichidagi scrolcha style */
+.share__caruse::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #666;
+}
+
+.share__link {
+    width: 60px;
+    height: 60px;
+    background-color: blue;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.next__btn {
+    position: absolute;
+    top: 20%;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    right: 0;
+    background-color: black;
+    display: block;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    background-color: rgb(238, 238, 238);
+    border: 1px solid rgb(158, 158, 158);
+}
+
+.next__btn i {
+    margin: 0;
+}
+.prev__btn i {
+    margin: 0;
+}
+.prev__btn {
+    position: absolute;
+    top: 21%;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    left: 0px;
+    background-color: black;
+    display: block;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    background-color: rgb(238, 238, 238);
+    border: 1px solid rgb(158, 158, 158);
+}
+
+.copy {
+    padding: 10px 20px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copy__btn {
+    border: none;
+    color: blue;
+    font-weight: bold;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+.bg__blue {
+    color: white;
+    background-color: rgb(18, 129, 234);
+}
+
+.video-content__btn {
+    display: flex;
+}
+
+.like__button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+}
+.like__button i {
+    margin: 0;
+    font-size: 30px;
+    margin-left: 10px;
+}
+.like__button {
+    margin: 0;
+    font-size: 15px;
+}
+
+.channel__account-img {
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    margin-right: 20px;
+}
+
+.video-content__btn .dark i {
+    background-color: transparent;
+}
+
+.video__subscribe .dark {
+    background-color: transparent;
+}
+
+.info .dark {
+    background-color: transparent;
+}

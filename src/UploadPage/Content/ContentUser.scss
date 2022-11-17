@@ -1,0 +1,75 @@
+.upload {
+
+    &__modal-hero {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    &__modal-body {
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 85%;
+        padding: 0 30px;
+        cursor: pointer;
+    }
+
+    &__modal-center {
+        flex-grow: 1;
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+    }
+
+    &__modal-footer {
+        position: absolute;
+        bottom: 20px;
+    }
+}
+
+.upload__content .upload__modal .keyboard {
+    width: 960px;
+    height: 650px;
+    border-radius: 10px;
+}
+
+.upload__modal .keyboard .user__keyboard-modal-type {
+    width: 100%;
+    margin-top: 0;
+    display: block;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    padding: 0;
+    overflow: auto;
+}
+
+.upload__modal-icon .material-icons {
+    align-items: center;
+    align-self: center;
+    display: flex;
+    font-size: 70px;
+    color: #909090;
+        background-color: transparent;
+        -webkit-touch-callout: none; /* iOS Safari browseri qo'llab quvvatlaydi*/
+          -webkit-user-select: none; /* Safari browseri qo'llab quvvatlaydi*/
+           -khtml-user-select: none; /* Konqueror HTML browseri qo'llab quvvatlaydi*/
+             -moz-user-select: none; /* Firefox browseri qo'llab quvvatlaydi*/
+              -ms-user-select: none; /* Internet Explorer/Edge browseri qo'llab quvvatlaydi*/
+                  user-select: none; /* Non-prefixed version, currently
+                  supported by Chrome and Opera browseri qo'llab quvvatlaydi*/
+}
+
+.upload__modal-icon  {
+    width: 136px;
+    height: 136px;
+    background-color: #F9F9F9;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    align-self: center;
+    margin-bottom: 30px;
+}

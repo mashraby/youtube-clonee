@@ -1,0 +1,32 @@
+.trends {
+    border: 1px solid rgb(191, 190, 190);
+    border-radius: 20px;
+    padding: 5px 15px;
+    background-color: #E5E5E5;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.trends:hover {
+    background-color: #cfcdcd;
+}
+
+.trends:focus {
+    background-color: black;
+    color: white;
+}
+
+.trends + .trends {
+    margin-left: 20px;
+}
+
+.content__dark .videos a .video .details .title h3 {
+    color: white;
+}
+
+.content__dark .videos a .video .details .title a {
+    color: #aaa;
+}
+.content__dark .videos a .video .details .title span {
+    color: #aaa;
+}

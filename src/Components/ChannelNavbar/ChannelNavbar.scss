@@ -1,0 +1,100 @@
+.upload {
+    display: flex;
+    &__bar {
+
+    }
+
+    &__navbar {
+        text-align: center;
+    }
+
+    &__settings {
+        right: 0;
+        position: absolute;
+        top: 40px;
+    }
+
+    &__button {
+        display: flex;
+        align-items: center;
+        border: 1px solid black;
+        padding: 5px 10px;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+
+    &__icon {
+        padding: 0;
+        margin-right: 5px;
+        color: red;
+    }
+
+    &__accountName {
+        width: 112px;
+        height: 112px;
+        margin: auto;
+        margin: 20px auto;
+    }
+
+    &__name {
+        margin-bottom: 20px;
+    }
+
+    &__accountNameLittle {
+        width: 30px;
+        height: 30px;
+        margin: 10px auto;
+        font-size: 15px;
+    }
+
+    &__account-fullName {
+        font-size: 14px;
+        margin-bottom: 20px;
+        padding: 20px;
+
+    }
+}
+
+.side-bar-short .upload__navLeft {
+    height: calc(100vh - 120px);
+    overflow-y: auto;
+}
+
+.upload__navLeft {
+    height: calc(100vh - 282px);
+    overflow-y: auto;
+}
+
+.upload__bar .upload__navLeft .active .nav__links i {
+    color: red;
+}
+.upload__bar .upload__navLeft .active {
+    position: relative;
+    color: red;
+    background-color: rgb(233, 231, 230);
+}
+
+.upload__bar .upload__navLeft .active .nav__links .dark {
+    color: red;
+    font-weight: bold;
+}
+
+.upload__bar .upload__navLeft .active span {
+    color: red;
+    font-weight: bold;
+}
+.upload__bar .upload__navLeft .active::before {
+    content: "";
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    width: 6px;
+    background-color: rgb(180, 0, 0);
+    height: 45px;
+    position: absolute;
+    left: 0;
+}
+
+.upload__bar .upload__navLeft a span {
+    font-weight: bold;
+}

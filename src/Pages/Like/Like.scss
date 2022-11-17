@@ -1,0 +1,56 @@
+.like__body {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 70px 0px 0px;
+}
+
+.like__last {
+    // width: 20%;
+    height: 90vh;
+    width: 30%;
+}
+
+.like__link {
+    padding: 0px 10px;
+    border-bottom: 2px solid rgb(210, 210, 210);
+}
+.like__link:nth-child(1) {
+    padding: 10px 10px;
+    margin-bottom: 0;
+}
+
+.like__link:hover {
+    background-color: #E5E5E5;
+}
+
+.like {
+    display: flex;
+    align-items: center;
+
+    .history__account-img i {
+        font-size: 90px;
+    }
+
+    &__video {
+        display: flex;
+        align-items: center;
+    }
+
+    &__videos {
+        width: 70%;
+        padding: 0px 0px;
+        background-color: #f1f1f1;
+    }
+
+    &__title {
+        font-size: 16px;
+        color: black;
+    }
+
+    &__index {
+        color: rgb(136, 136, 136);
+        font-size: 18px;
+        font-weight: bold;
+    }
+}

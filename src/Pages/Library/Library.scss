@@ -1,0 +1,125 @@
+.library {
+    padding: 0px 100px;
+    display: flex;
+    align-items: center;
+
+    &__types{
+        min-width: 80%;
+        margin-right: 20px;
+    }
+
+    &__category {
+
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+
+        &-type {
+            padding: 20px 0;
+
+            a i {
+                font-size: 30px;
+                padding: 0;
+                margin-right: 20px;
+            }
+            a h3 {
+                font-size: 18px;
+                color: black;
+            }
+
+            a h3 span {
+                font-size: 18px;
+                color: black;
+            }
+        }
+
+        &-liked {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &-icon {
+            margin-right: 15px;
+        }
+
+        &-heading {
+            font-weight: 500;
+            font-size: 16px;
+        }
+
+        &-desc {
+            font-size: 15px;
+            font-weight: 400;
+        }
+
+        &-likeDesc {
+            font-size: 16px;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: blue;
+        }
+
+        &-likeHeading {
+            margin-left: 10px;
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+
+    &__home-link {
+        color: blue;
+    }
+
+    &__user {
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &-account {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #F5511E;
+            font-size: 40px;
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        &-name {
+            margin-bottom: 30px;
+        }
+
+        &-linear {
+            width: 100%;
+            color: black;
+        }
+
+        &-subscript {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 3px;
+            width: 100%;
+        }
+    }
+}
+
+.content__dark .library .library__types .library__category-type  {
+    color: white;
+}
+.content__dark .library .library__types .library__category-type .library__category h3 {
+    color: white;
+}
+.content__dark .library .library__types .library__category-type .library__category h3 span {
+    color: white;
+}
+.content__dark .library .library__types .library__category-type .library__category i {
+    background-color: transparent;
+}
+.content__dark .library .library__user .library__user-name div .user__name {
+    background-color: transparent;
+    color: white;
+}

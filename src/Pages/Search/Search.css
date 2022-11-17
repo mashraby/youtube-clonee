@@ -1,0 +1,50 @@
+.search__video {
+    padding: 30px 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.search__result-video {
+    margin-bottom: 15px;
+    /* display: inline-block; */
+}
+
+.search__account-img {
+    margin-right: 30px;
+}
+
+.search__account-img .search__account__img {
+    width: 360px;
+    height: 202px;
+}
+
+.searchs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.search__titles {
+    margin-bottom: 10px;
+}
+
+.search__videos {
+    display: flex;
+    min-width: 100%;
+}
+
+.title .search__video-title {
+    font-size: 20px;
+    color: rgb(53, 52, 52);
+    font-weight: 500;
+}
+
+.search__author {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.search__author-span {
+    font-size: 16px;
+}

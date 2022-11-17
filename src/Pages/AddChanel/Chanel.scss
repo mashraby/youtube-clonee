@@ -1,0 +1,47 @@
+.chanelAdd {
+    padding:  20px 100px;
+    display: flex;
+    flex-wrap: wrap;
+
+    &__card {
+        padding: 50px 0;
+        width: 210px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        &-img {
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        &-btn {
+            width: 100px;
+            padding: 8px;
+            margin-top: 30px;
+            border: none;
+            background-color: red;
+            color: #ffffff;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    }
+
+    &__link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.addChannelSubscript {
+    background-color: #ECECEC;
+    color: #606060;
+}
+
+.channel__title {
+    color: black;
+}
